@@ -1,0 +1,11 @@
+
+research_sites:
+        bancomundial:
+                url: https://www.bancomundial.org/es/home
+                queries:
+                        homepage_article_links : '.lp__card_content a'            
+        oms:
+                url: https://www.who.int/es
+                queries:
+                        homepage_article_links : '.arrowed-link a' 
+               
