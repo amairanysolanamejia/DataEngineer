@@ -1,11 +1,14 @@
 
 research_sites:
         bancomundial:
-                url: https://www.bancomundial.org/es/home
+                url: https://www.worldbank.org/en/research
                 queries:
-                        homepage_article_links : '.lp__card_content a'            
+                        homepage_article_links : '.lp__card_content a'
+                        article_body: '.redesign_static_content section p'
+                        article_title: 'h1'            
         oms:
                 url: https://www.who.int/es
                 queries:
-                        homepage_article_links : '.arrowed-link a' 
+                        homepage_article_links : '.arrowed-link a'
+                          
                
