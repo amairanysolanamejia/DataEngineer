@@ -2,7 +2,9 @@ import bs4
 import requests
 
 from common import config
+
 class ResearchPage:
+
     def __init__(self,research_site_uid,url):
         self._config =config()['research_sites'][research_site_uid]
         self._queries = self._config['queries']

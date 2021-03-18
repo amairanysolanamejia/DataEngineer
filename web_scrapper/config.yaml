@@ -9,6 +9,8 @@ research_sites:
         oms:
                 url: https://www.who.int/es
                 queries:
-                        homepage_article_links : '.arrowed-link a'
+                        homepage_article_links : ''
+                        article_body: ''
+                        article_title: ''
                           
                
